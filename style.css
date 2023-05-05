@@ -1,5 +1,5 @@
 body {
-    background-color:#1CCAD8;
+    background-color: #1CCAD8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -14,11 +14,11 @@ body {
     width: 20em;
     display: inline-block;
     min-height: 10em;
-    
+
 }
 
 inline-block {
-width: 20em;
+    width: 20em;
     display: inline-block;
     min-height: 10em;
 }
@@ -29,17 +29,17 @@ width: 20em;
 }
 
 .medium_pizza {
-    background-color:#3DFFCB; 
-    flex: 2; 
+    background-color: #3DFFCB;
+    flex: 1;
 }
 
 .large_pizza {
     background-color: #E15634;
-    flex: 3;
+    flex: 1;
 }
 
-.contact_us { 
-  background-color: #FFEC51;
+.contact_us {
+    background-color: #FFEC51;
 }
 
 .special {
@@ -69,8 +69,5 @@ width: 20em;
 
     .pizzas {
         display: flex;
-      }
+    }
 }
-
-
-  
