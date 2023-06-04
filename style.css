@@ -3,10 +3,8 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
-
 .pizza {
-    border: 5px solid black;
+    border: 5px solid blanchedalmond;
     padding: 1em;
     margin: 1em;
     margin-bottom: 2em;
@@ -14,6 +12,8 @@ body {
     width: 20em;
     display: inline-block;
     min-height: 10em;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -26,20 +26,28 @@ inline-block {
 .small_pizza {
     background-color: #FABC3C;
     flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .medium_pizza {
     background-color: #3DFFCB;
     flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .large_pizza {
     background-color: #E15634;
     flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact_us {
     background-color: #FFEC51;
+    align-items: center;
+    justify-content: center;
 }
 
 .special {
